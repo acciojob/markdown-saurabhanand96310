@@ -11,9 +11,9 @@ const App=()=>{
                 onChange={(e)=>setText(e.target.value)}
                 >
             </textarea>
-            <div className="preview">
-                gkldfgnidfkvlndfvnlfd
-            </div>
+            <ReactMarkdown  children={text}className="preview" / >
+                
+            {/* </div> */}
             {/* <ReactMarkdown children={text} className="preview"/> */}
         </div>
         </>
